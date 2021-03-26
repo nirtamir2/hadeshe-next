@@ -1,4 +1,16 @@
 {
-  "semi": false,
-  "singleQuote": true
+  "overrides": [
+    {
+      "files": "*.svg",
+      "options": {
+        "parser": "html"
+      }
+    },
+    {
+      "files": "i18n/**.json",
+      "options": {
+        "printWidth": 100000
+      }
+    }
+  ]
 }
